@@ -37,8 +37,20 @@ async function remap(arr, keyMap, iterator) {
 }
 
 function notate(notation, value, result) {
-  const keys = notation.split('.');
   let currentObj = result || {};
+
+  if (typeof notation === 'object') {
+    let tempObj = value || {};
+    for (const key in notation) {
+      notate(key, notation[key], tempObj)
+    }
+    return tempObj
+  }
+
+  const keys = notation.split('.');
+  
+
+  
 
   if (keys.length === 1) {
     currentObj[keys[0]] = value

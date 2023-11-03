@@ -1,7 +1,7 @@
 {
   "name": "@trinly01/remap.js",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "\"JavaScript utility that simplifies data transformation. Remap complex, nested data structures into a more straightforward and user-friendly format. Custom Mapping: Define your own key mapping configuration\"",
   "main": "remap.cjs",
   "scripts": {

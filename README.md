@@ -44,7 +44,7 @@ const originalSourceData = [
     addresses: [
       { type: 'home', location: '123 Main St, Apt 101' },
       { type: 'work', location: '456 Business St, Suite 200' },
-    },
+    ],
   },
   // Additional source data objects here
 ];
@@ -113,9 +113,9 @@ The `notate` function is used to create and assign values to objects with a spec
 
 | Parameter    | Type | Description                                                                         |
 |--------------|------|-------------------------------------------------------------------------------------|
-| `notation`   | String | The key notation in the destination object.                                         |
-| `value`      | Any | The value to assign to the destination object.                                      |
-| `result`     | Object (Optional) | The result object where the data will be assigned.                                  |
+| `notation`   | Object or String | The key notation in the destination object. If it's an object, you can set multiple values at once. If it's a single path notation (string), the value parameter is required.                                         |
+| `value`      | Any | The value to assign to the destination object. Required when notation is a single path notation (string).                                      |
+| `result`     | (Optional) The result object where the data will be assigned. If provided, the assigned data will be stored in this object.                                  |
 
 These two separate markdown tables provide a clear and structured overview of the parameter information for the `remap` and `notate` functions without the "Default" column.
 
