@@ -1,0 +1,38 @@
+{
+  "name": "remap.js",
+  "version": "1.0.0",
+  "description": "\"JavaScript utility that simplifies data transformation Remap complex, nested data structures into a more straightforward and user-friendly format. Custom Mapping: Define your own key mapping configuration\"",
+  "main": "remap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinly01/remap.js.git"
+  },
+  "keywords": [
+    "remap.js",
+    "data",
+    "transformation",
+    "key",
+    "mapping",
+    "JavaScript",
+    "utility",
+    "nested",
+    "data",
+    "data",
+    "manipulation",
+    "ETL",
+    "user",
+    "input",
+    "mapping",
+    "object",
+    "creation"
+  ],
+  "author": "Trinmar Boado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trinly01/remap.js/issues"
+  },
+  "homepage": "https://github.com/trinly01/remap.js#readme"
+}
