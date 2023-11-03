@@ -14,6 +14,10 @@ The Remap.JS library is a versatile JavaScript utility that simplifies data tran
 
 To get started with the Remap library, import it into your JavaScript file:
 
+```terminal
+ npm i @trinly01/remap.js
+```
+
 ```javascript
 import { remap, notate } from '@trinly01/remap.js';
 ```
